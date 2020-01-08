@@ -1,0 +1,8 @@
+.homeBackground{
+/*    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://cdn.pixabay.com/photo/2016/03/31/09/28/website-1292338_960_720.jpg');*/
+    background:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://cdn.pixabay.com/photo/2014/09/03/06/56/welcome-434118_960_720.png');
+    min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}

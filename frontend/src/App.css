@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.noUnderline{
+    text-decoration: none;
+}
+.inlineBlock{
+    display: inline-block;
+}
+
+.floatRight{
+    float: right;
+}
+.transparentBackground{
+    background: transparent;
+}
+
+/*
+.gradientBackground
+{
+    background: linear-gradient(to right, #50d890,#ff7315);
+    min-height: 100vh;
+}
+*/
+
+.gradientBackground
+{
+    background: linear-gradient(to right, rgb(69, 211, 44), rgb(238, 133, 17));
+    min-height: 100vh;
+}
+
+.gradientBackground2
+{
+    background: linear-gradient(to right, rgb(247, 32, 9),rgb(79, 209, 46));
+/*    background: linear-gradient(to right, #f79f24,#a8026f);*/
+    min-height: 100vh;
+}
+.blackBackground{
+    background:black;
+    min-height: 100vh;
+}
+.loginFirstBackground{
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://cdn.pixabay.com/photo/2016/05/15/04/13/area-closed-1393118_960_720.jpg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.analyseBackground{
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://cdn.pixabay.com/photo/2016/06/03/13/57/digital-marketing-1433427_960_720.jpg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.centrallyAligned{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.noUnderline{
+    text-decoration: none;
+}
+
+.transparentBackground{
+    background: transparent;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
